@@ -1,3 +1,3 @@
-ALTER TABLE Crimes
-Classification ENUM('F', 'M', 'O', 'U') DEFAULT 'U',
-    Status ENUM('CL', 'CA', 'IA'),
+ALTER TABLE Criminals
+MODIFY COLUMN V_status ENUM('Y', 'N') DEFAULT 'N',
+MODIFY COLUMN P_status ENUM('Y', 'N') DEFAULT 'N'

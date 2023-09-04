@@ -1,2 +1,2 @@
-ALTER TABLE Appeals
-MODIFY COLUMN Status ENUM('P', 'A', 'D') DEFAULT 'P'
+ALTER TABLE Officers
+MODIFY COLUMN Status ENUM('A', 'I') DEFAULT 'A'
