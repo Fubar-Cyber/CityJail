@@ -1,2 +1,2 @@
 ALTER TABLE Prob_officers
-MODIFY COLUMN Status ENUM('A', 'I') DEFAULT 'A'
+ADD COLUMN Pager_Num VARCHAR(14)
