@@ -1,3 +1,3 @@
 ALTER TABLE Crimes
-ADD COLUMN Date_Recorded DATE
+MODIFY COLUMN Date_Recorded timestamp not null default now()
 
