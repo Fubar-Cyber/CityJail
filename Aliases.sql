@@ -1,5 +1,2 @@
-CREATE TABLE Aliases (
-    Alias_iD NUMERIC PRIMARY KEY,
-    Criminal_ID NUMERIC,
-    Alias CHAR(10)
-);
+ALTER TABLE Aliases
+MODIFY COLUMN Alias CHAR(20)
