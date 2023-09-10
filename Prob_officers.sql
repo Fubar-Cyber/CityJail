@@ -1,2 +1,2 @@
 ALTER TABLE Prob_officers
-ADD COLUMN Pager_Num VARCHAR(14)
+ADD PRIMARY KEY (Prob_ID)
