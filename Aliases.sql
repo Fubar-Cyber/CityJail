@@ -1,2 +1,3 @@
 ALTER TABLE Aliases
-MODIFY COLUMN Alias CHAR(20)
+MODIFY COLUMN Criminal_ID decimal NOT NULL;
+
