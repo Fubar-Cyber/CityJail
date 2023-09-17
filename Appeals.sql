@@ -1,2 +1,2 @@
-ALTER TABLE Appeals
-MODIFY COLUMN Status ENUM('P', 'A', 'D')  Default "P"
+ALTER TABLE appeals
+ADD CONSTRAINT Status CHECK (Status IN ('P', 'A', 'D'));
