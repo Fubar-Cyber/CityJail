@@ -1,2 +1,2 @@
-ALTER TABLE Officers
-MODIFY COLUMN Status ENUM('A', 'I') DEFAULT 'A'
+ALTER TABLE officers
+ADD CONSTRAINT Status CHECK (Status IN ('A', 'I'));
