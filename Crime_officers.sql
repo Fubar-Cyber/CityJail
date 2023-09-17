@@ -1,4 +1,2 @@
-CREATE TABLE Crime_officers (
-    Crime_ID NUMERIC,
-    Officer_ID NUMERIC
-);
+ALTER TABLE crime_officers
+ADD FOREIGN KEY (Officer_ID) REFERENCES Officers(Officer_ID);
