@@ -1,2 +1,5 @@
 ALTER TABLE crime_officers
-ADD FOREIGN KEY (Officer_ID) REFERENCES Officers(Officer_ID);
+ADD COLUMN Crime_ID INT NOT NULL,
+ADD CONSTRAINT FK_Crime_Officers_Crimes
+FOREIGN KEY (Crime_ID)
+REFERENCES Crimes(Crime_ID);

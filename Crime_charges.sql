@@ -1,3 +1,6 @@
 ALTER TABLE crime_charges
-ADD FOREIGN KEY (Crime_code) REFERENCES Crime_codes(Crime_code);
+ADD COLUMN Crime_ID INT NOT NULL,
+ADD CONSTRAINT FK_Crime_Charges_Crimes
+FOREIGN KEY (Crime_ID)
+REFERENCES Crimes(Crime_ID);
 

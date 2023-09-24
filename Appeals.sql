@@ -1,2 +1,5 @@
 ALTER TABLE appeals
-ADD CONSTRAINT Status CHECK (Status IN ('P', 'A', 'D'));
+ADD COLUMN Crime_ID INT NOT NULL,
+ADD CONSTRAINT FK_Crime_Appeals
+FOREIGN KEY (Crime_ID)
+REFERENCES Crimes(Crime_ID);
