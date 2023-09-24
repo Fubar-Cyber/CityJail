@@ -1,3 +1,2 @@
-ALTER TABLE Criminals
-MODIFY COLUMN V_status ENUM('Y', 'N') DEFAULT 'N',
-MODIFY COLUMN P_status ENUM('Y', 'N') DEFAULT 'N'
+INSERT INTO criminals (Criminal_ID, Last, First, Street, City, Zip, Phone, V_status, P_status)
+VALUES (NULL, 'Capella', 'Manie', '1234 Any St', 'St Cloud', '34771', '4075555555', 'N', 'N');
