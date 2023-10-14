@@ -1,4 +1,5 @@
-INSERT INTO crimes (Crime_ID, Criminal_ID, Classification, Status, Hearing_date, Appeal_cut_date, Date_Recorded)
-VALUES (NULL, 1, 'F', NULL, '2023-09-28', NULL, CURRENT_TIMESTAMP);
+INSERT INTO crimes (crime_id, criminal_id, classification, date_charged, status,
+hearing_date, appeal_cut_date)
+VALUES (10085, 1020, 'F', '2008-09-03', 'CA', '2008-09-15', '2008-12-15');
 
 
