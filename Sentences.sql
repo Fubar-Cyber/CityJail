@@ -1,5 +1,2 @@
-ALTER TABLE Sentences
-ADD COLUMN Criminal_ID INT NOT NULL,
-ADD CONSTRAINT FK_Criminal_Sentences
-FOREIGN KEY (Criminal_ID)
-REFERENCES Criminals(Criminal_ID);
+INSERT INTO sentences (sentence_id, criminal_id, type, prob_id, start_date, end_date, violations)
+VALUES (1000, 1020, 'J', NULL, '2008-09-15', '2010-09-15', 0);

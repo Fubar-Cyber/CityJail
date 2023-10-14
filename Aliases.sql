@@ -1,2 +1,2 @@
-ALTER TABLE Prob_officers
-ADD COLUMN mgr_id INT;
+INSERT INTO aliases (alias_id, criminal_id, alias)
+VALUES (100, 1020, 'Bat');
