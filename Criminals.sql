@@ -1,4 +1,2 @@
-INSERT INTO criminals (criminal_id, last, first, street, city, state, zip, phone,
-v_status, p_status)
-VALUES (1020, 'Phelps','Sam','1105 Tree Lane', 'Virginia Beach', 'VA', '23510',
-7576778484, 'Y', 'N');
+INSERT INTO criminals (criminal_id, last, first, street, city, state, zip, phone, v_status, p_status)
+VALUES (1022, 'Caulk','Dave', '8112 Chester Lane', 'Chesapeake', 'VA', '23320', 7578403690, 'N', 'Y');
