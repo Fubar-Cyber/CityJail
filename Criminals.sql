@@ -1,2 +1,2 @@
 INSERT INTO criminals (criminal_id, last, first, street, city, state, zip, phone, v_status, p_status)
-VALUES (1022, 'Caulk','Dave', '8112 Chester Lane', 'Chesapeake', 'VA', '23320', 7578403690, 'N', 'Y');
+VALUES (1023, 'Dabber','Pat', NULL, 'Chesapeake', 'VA', '23320', NULL, 'N', 'N');
